@@ -9,6 +9,10 @@ var show = document.getElementById("nav-links")
         {
             window.location.href="loginForm.htm"
         }
+        function signUp()
+        {
+            window.location.href="signUpForm.htm"
+        }
 
         function fb()
         {

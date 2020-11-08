@@ -20,8 +20,8 @@
                     <a href="#"><li>ABOUT</li></a>
                     <a href="#"><li>RECIPE</li></a>
                 </ul>
-                <button type="button" class="btn">Sign up</button>
-                <button type="button" class="btn">Login</button>
+                <button type="button" class="btn" >Sign up</button>
+                <button type="button" class="btn" onclick="logInForm()">Login</button>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </div>
@@ -35,22 +35,13 @@
                 <i class="fa fa-search"></i>
             </div>
             <div class="social-icons">
-                <i class="fa fa-facebook"></i>
-                <i class="fa fa-instagram"></i>
-                <i class="fa fa-twitter"></i>
-                <i class="fa fa-pinterest"></i>
+                <i class="fa fa-facebook" onclick="fb()"></i>
+                <i class="fa fa-instagram" onclick="insta()"></i>
+                <i class="fa fa-twitter" onclick="twitter()"></i>
+                <i class="fa fa-pinterest" onclick="pinterest()"></i>
             </div>
         </div>
     </div>
-    <script>
-        var show = document.getElementById("nav-links")
-        function showMenu(){
-            show.style.right = "0";
-        }
-        function closeMenu(){
-            show.style.right = "-200px";
-        }
-
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
